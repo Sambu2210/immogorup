@@ -15,10 +15,95 @@ body {
 .hub-button:focus {
   background-color: rgb(70, 140, 211);
   color: rgb(255, 255, 255);
-  border: red;
+  border-color: none !important;
 }
 .hub-btn-gird {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
+}
+.radio-btn {
+  width: 31px;
+  height: 31px;
+  border: 1px solid #d2d2d2;
+  background-color: #ffffff;
+  margin-right: 11px;
+  cursor: pointer;
+}
+.input-field {
+  display: flex;
+  min-width: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #d2d2d2;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.35;
+  margin: 20px 2px;
+  width: 100%;
+}
+.score {
+  color: #d2d2d2;
+}
+.grid-field {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+.immobilie-grid-field {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+}
+.immobilie-next-grid-field {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+}
+.immobilie-btn {
+  background-color: #468cd3;
+  color: rgb(255, 255, 255);
+  padding: 9px 30px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.Fast-btn {
+  background-color: #468cd3;
+  color: rgb(255, 255, 255);
+  padding: 9px 30px;
+  border-radius: 5px;
+}
+.select-field {
+  display: flex;
+  min-width: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid #d2d2d2;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.35;
+  margin: 20px 2px;
+  min-width: 240px;
+}
+.grid-field-angaben {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.houseing-btn {
+  border: none;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #468cd3;
+  color: #468cd3;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 150px;
 }
